@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLoop</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    
+    <header class="lifeloop-navbar sticky-top bg-white">
+        <div class="container d-flex justify-content-between align-items-center py-3 ">
+        
+            <div class="logo d-flex align-items-center">
+           
+                <span class="brand-name">LIFE LOOP</span>
+            </div>
+
+       
+            <nav class="nav-links d-none d-md-flex">
+                <a href="#home-section" class="nav-link active">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#team-section">Team</a>
+                <a href="#services-section">Services</a>
+                <a href="#work-section">How It Works</a>
+                <a href="#contact-section">Contact</a>
+            </nav>
+
+        
+            <div class="nav-buttons d-none d-md-flex">
+                <a href="emergency.html" class="btn btn-outline-dark me-2">Request Blood</a>
+                <a href="blooddonate.html" class="btn btn-danger">Donate Now</a>
+            </div>
+        </div>
+        </header>
+        <section class="home-section align-items-center " id="home-section">
+            <div class="container  ">
+                <div class="row   ">
+                     
+                    <div class="col-lg-6 col-md-10  ">
+                        <h1 class="hero-title">Donate Blood  Save Life</h1>
+                        <h4 class="hero-desc"> Join The Blood Donation Movement</h4>
+                        <button class="service-button" onclick="document.getElementById('services-section').scrollIntoView({ behavior: 'smooth' })">
+                            VIEW SERVICES
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="about-section" id="about-section">
+            <div class="container-fluid">
+                <div class="row mt-5 px-5 ">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 mt-5 px-5 pt-5 align-items-center">
+                        <h6 class="mt-5">PEOPLES BLOOD DONATION ARMY</h6>
+                        <h1>Join the blood donation movement</h1>
+                        <p style="text-align: justify;">At <strong>LifeLoop</strong>, we believe in the power of community and compassion. Our blood donation initiative connects donors with those in urgent need, making a significant difference in lives every day. Here, you can quickly request blood for patients, ensuring timely assistance in crucial moments. Together, let’s build a healthier future by sharing the gift of life. Your contribution can save lives and bring hope to families in distress.</p>
+                        <br>
+                        <a class="about-link" href="#contact-section" >Get In Touch</a>
+                    </div>
+                    <div class="col-md-4 about-img mt-5 pt-5 px-5 ">
+                        <img src="img/Blood-Donation.jpg" style="width:500px; height: 100%;">
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
+        <section class="stats-bar">
+            <div class="container text-center py-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="stat-number" data-target="5000">0</h2>
+                        <p class="stat-label">Lives Saved</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="stat-number" data-target="2500">0</h2>
+                        <p class="stat-label">Active Donors</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="stat-number" data-target="50">0</h2>
+                        <p class="stat-label">Hospital Partners</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="stat-number emergency" data-target="24">0</h2>
+                          
+                        <p class="stat-label">Emergency Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section  " id="team-section">
+            <div class="our_team_area section_padding  ">
+                <div class="container" style="height: 650px;">
+                    <div class="row justify-content-center">
+                        
+                        <div class="col-md-2 "></div>
+                        <div class="col-lg-6 col-md-8 ">
+                            <div class="section_title text-center ">
+                                <h2 class="mt-5"><span>Our Team</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row justify-content-center mt-5 gx-0 gy-4">
+                        
+                        <div class="col-lg-4 col-md-3 px-5 gx-3 ">
+                            <div class="single_team ">
+                                <div class="team_thumb">
+                                    <img src="img/team.png"  alt="">
+                                </div>
+                                <div class="team_info d-flex align-items-end">
+                                    <div class="social_links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fab fa-pinterest"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="info_inner">
+                                        <h4>Muhammed Nibras</h4>
+                                        <p>Donner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-3 px-5 gx-3">
+                            <div class="single_team">
+                                
+                                <div class="team_thumb">
+                                    <img src="img/team.png"  alt="">
+                                </div>
+                                <div class="team_info d-flex align-items-end">
+                                    <div class="social_links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="info_inner">
+                                        <h4> Muhammed Nibras</h4>
+                                        <p>Volunteer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 px-5 gx-3 ">
+                            <div class="single_team">
+                                <div class="team_thumb">
+                                    <img src="img/team.png"     alt="">
+                                </div>
+                                <div class="team_info d-flex align-items-end">
+                                    <div class="social_links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="info_inner">
+                                        <h4>Muhammed Nibras</h4>
+                                        <p>Volunteer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="services-section" id="services-section" style="height: 750px;">
+            <div class="service-title"  >
+                <div class="container " > 
+                    <div class="row  ">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <p class="mb-0 mt-5  px-4   fs-10">BLOOD DONATION MADE EASY</p>
+                            <h2 class=" px-3 fw-bolder fs-1">Join our initiative and save lives today!</h2>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-cards">
+                <div class="container ">
+                    <div class="row row-cols-1 row-cols-md-3  justify-content-center  gx-2 gy-4  mt-5">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 d-flex align-items-stretch px-3">
+                            <a href="blooddonate.html" class="card-link" style="text-decoration: none;">
+                                <div class="card shadow-sm w-100  h-100 d-flex flex-column  " >
+                                    <img src="img/service1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Blood donation registration   <span class="arrow">&rsaquo;</span></h5>
+                                        <p class="card-text text-muted">Create your personal account to support blood donation requests.</p>
+                                    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-stretch px-3">
+                            <a href="emergency.html" class="card-link" style="text-decoration: none;">
+                                <div class="card shadow-sm w-100  h-100 d-flex flex-column  "  >
+                                    <img src="img/service2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Emergency blood request  <span class="arrow">&rsaquo;</span></h5>
+                                        <p class="card-text text-muted">Quickly send a request for blood when time is critical.</p>
+                                    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>      
+                        <div class="col-md-3 d-flex align-items-stretch px-3">
+                            <a href="community.html" class="card-link" style="text-decoration: none;">
+
+                                <div class="card shadow-sm       "  >
+                                    <img src="img/service3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Community awareness programs  <span class="arrow">&rsaquo;</span></h5>
+                                        <p class="card-text text-muted">Engage in programs aimed at promoting blood donation awareness.</p>
+                                    </div>   
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work-section" id="work-section">
+            <div class="work-title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <p class="mb-0 mt-5   fs-10">SIMPLE BLOOD REQUEST PROCESS</p>
+                            <h2 class="mb-5 fw-bolder fs-2">Join us to save lives effortlessly!</h2>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-desc py-5 gy-0">
+                <div class="container mb-0">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <div style="max-width: 100%;">
+                                <img src="img/work1.jpg" class="img-fluid work-popup" alt="Create account" data-title="Create account" data-description="Creating an account with PBDA is the first step towards making a significant impact in the community. By signing up, you join a network of individuals committed to saving lives through blood donation. The process is straightforward: simply fill out the online registration form with your details, including your name, contact information, and blood group. Once your account is active, you will have access to a range of features, including the ability to request blood and track your donation history. Empower yourself to be a beacon of hope for those in need." data-img="work1.jpg" data-bs-toggle="modal" data-bs-target="#workModal">
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <p class="fw-bold fs-5 mb-2">Create your account</p>
+                            <p class="text-muted mb-3">Join PBDA by creating your account and start making a difference.</p>
+                            <a class="work-link"  data-bs-toggle="modal" data-bs-target="#workModal" data-title="Create your account" data-description="Creating an account with PBDA is the first step towards making a significant impact in the community. By signing up, you join a network of individuals committed to saving lives through blood donation. The process is straightforward: simply fill out the online registration form with your details, including your name, contact information, and blood group. Once your account is active, you will have access to a range of features, including the ability to request blood and track your donation history. Empower yourself to be a beacon of hope for those in need."  data-img="img/work1.jpg">Learn more</a>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-desc py-5 gy-0">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-2"></div>     
+                        <div class="col-md-4 d-flex flex-column justify-content-center">
+                            <h5 class="fw-bold mb-2">Request blood</h5>
+                            <p class="text-muted mb-3">Easily request blood when you need it the most.</p>
+                            <a class="work-link"data-bs-toggle="modal" data-bs-target="#workModal" data-title="Request blood" data-description="When the need arises for blood, requesting it through PBDA is quick and efficient. Simply log into your account and navigate to the blood request section. Fill in the necessary details, including the patient’s name, hospital, blood group, and the number of units required. A bystander’s name and contact information are also needed for coordination. Once submitted, your request instantly reaches our admin via WhatsApp, ensuring a rapid response. This seamless process connects those in need with willing donors, saving lives when it matters most" data-img="img/work2.jpg">Learn more</a>
+                        </div>        
+                        <div class="col-md-4 d-flex justify-content-start">
+                            <img src="img/work2.jpg" class="img-fluid work-popup" alt="Request Blood"  data-title="Request Blood" data-description="When the need arises for blood, requesting it through PBDA is quick and efficient. Simply log into your account and navigate to the blood request section. Fill in the necessary details, including the patient’s name, hospital, blood group, and the number of units required. A bystander’s name and contact information are also needed for coordination. Once submitted, your request instantly reaches our admin via WhatsApp, ensuring a rapid response. This seamless process connects those in need with willing donors, saving lives when it matters most."  data-img="work2.jpg"  data-bs-toggle="modal" data-bs-target="#workModal">
+                        </div>
+
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-desc py-5">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <div style="max-width: 100%;">
+                                <img src="img/work3.jpg" class="img-fluid work-popup" alt="Connect with donors"  data-title="Connect With Donors"  data-description="Once a blood request is made, PBDA takes pride in actively connecting patients with potential donors. Our dedicated admin monitors all requests and reaches out to registered donors who match the required blood type. Through our efficient communication system, we ensure that donors receive timely notifications, allowing them to respond and offer their help. This collaborative effort fosters a sense of community and compassion, as individuals come together to support those in urgent need of blood. Experience the power of connection and the difference it can make in saving lives."  data-img="img/work3.jpg" data-bs-toggle="modal" data-bs-target="#workModal">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <p class="fw-bold fs-5 mb-2">Connect with donors</p>
+                            <p class="text-muted mb-3">Connect with compassionate donors ready to help</p>
+                            <a class="work-link"  data-bs-toggle="modal"   data-bs-target="#workModal"  data-title="Connect with donors"  data-description="Once a blood request is made, PBDA takes pride in actively connecting patients with potential donors. Our dedicated admin monitors all requests and reaches out to registered donors who match the required blood type. Through our efficient communication system, we ensure that donors receive timely notifications, allowing them to respond and offer their help. This collaborative effort fosters a sense of community and compassion, as individuals come together to support those in urgent need of blood. Experience the power of connection and the difference it can make in saving lives." data-img="work3.jpg">  Learn more</a>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-desc py-5">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center">
+                            <h5 class="fw-bold mb-2">Track your donations</h5>
+                            <p class="text-muted mb-3">Keep track of your donations and celebrate your impact.</p>
+                            <a class="work-link" data-bs-toggle="modal" data-bs-target="#workModal" data-title="Track your donations" data-description="At PBDA, we believe in recognizing the invaluable contributions of our donors. After each donation, you can easily track your donation history through your account. This feature allows you to see how many lives you’ve impacted, the types of blood you’ve donated, and the dates of your contributions. Keeping a record not only encourages you to continue donating but also highlights the importance of your role in the community. Celebrate your commitment to helping others and inspire those around you to join the cause." data-img="img/work4.jpg">Learn more</a>
+                        </div>      
+                        <div class="col-md-4 d-flex justify-content-start">
+                            <img src="img/work4.jpg" class="img-fluid work-popup" alt="Track your donations" data-title="Track your donations"  data-description="At PBDA, we believe in recognizing the invaluable contributions of our donors. After each donation, you can easily track your donation history through your account. This feature allows you to see how many lives you’ve impacted, the types of blood you’ve donated, and the dates of your contributions. Keeping a record not only encourages you to continue donating but also highlights the importance of your role in the community. Celebrate your commitment to helping others and inspire those around you to join the cause."  data-img="work4.jpg"  data-bs-toggle="modal" data-bs-target="#workModal">
+
+                        </div>
+
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact-section bg-light" id="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-6 mt-5"> 
+                        <p class="mb-0 fs-10  ">GET IN TOUCH</p>
+                        <h2 class="fw-bolder fs-2">We're here to help you connect!</h2>
+                    </div>
+                </div>
+                <div class="row mt-5 ">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <table class="contact-table ">
+                            <tr class="table-row ">
+                                <td>
+                                    <img src="img/table1.jpeg" style="max-width: 300px;" class="table-content table-img">
+
+                                </td>
+                                <td>
+                                    <img src="img/table2.jpeg" style="max-width: 300px; "class="table-content table-img">
+
+                                </td>
+                                <td>
+                                    <img src="img/table3.jpeg" style="max-width: 300px; "class="table-content table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <address class="table-content">New York <br>1 Main Street <br>New York, NY 11111
+                                
+                                    </address>
+                                </td>
+                                <td>
+                                    <p class="table-content">New York <br>1 Main Street <br>New York, NY 11111</p>
+                                </td>
+                                <td>
+                                    <p class="table-content">New York <br>1 Main Street <br>New York, NY 11111</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="table-content">123-456-7890<br>info@company.com</p>
+                                </td>
+                                <td>
+                                    <p class="table-content">123-456-7890<br>info@company.com</p>
+                                </td>
+                                <td>
+                                    <p class="table-content">123-456-7890<br>info@company.com</p>
+                                </td>
+                            </tr>
+                            <tr class="contact-icons ">
+                                <td  >
+                                    <a href="#" class="social-icons"> <i class="px-1 fab fa-facebook-f "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fab fa-twitter "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fab fa-linkedin-in "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fab fa-instagram "></i> </a>
+                                </td>
+                                <td  >
+                                    <a href="#"  class="social-icons"> <i class="px-1 fa fa-facebook "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-twitter "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-linkedin"></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-instagram "></i> </a>
+                                </td>
+                                <td  >
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-facebook "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-twitter "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-linkedin "></i> </a>
+                                    <a href="#" class="social-icons"> <i class="px-1 fa fa-instagram "></i> </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 py-5">
+                        <a href="schedule.html" class="footer-links">Schedule Appointment</a>
+                        <a href="#" class="px-3 footer-links">Complete Intake</a>
+                        <a href="#" class=" px-3 footer-links">Privacy Policy</a>
+                    </div>
+                </div>
+                <hr class="footer-divider">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10  py-3">
+                         
+                        <p class="mb-0">© 2025 Copyrights Secured by [] </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        
+        
+        <div class="modal fade" id="workModal" tabindex="-1" aria-labelledby="workModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content position-relative">
+                    <div class="modal-body d-flex flex-wrap p-4">
+                        <div class="col-md-6 text-center mb-3 mb-md-0 pe-md-4 border-end">
+                            <img id="modalImage" src="" class="img-fluid rounded" alt="Work Image" />
+                        </div>
+
+      
+                        <div class="col-md-6 ps-md-4">
+                            <h5 class="fw-bold mb-3" id="modalTitle">Title here</h5>
+                            <p id="modalDescription">Description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+ 
+
+</body>
+</html>
