@@ -92,7 +92,9 @@ background-size: cover;
 }
 .about-section{
     align-items: center;
-    height: 550px;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+     
 }
 .about-section p{
   margin-bottom: 0rem;
@@ -404,4 +406,119 @@ background-size: cover;
 }
 .gradient{
   background:linear-gradient(rgba(59, 59, 59, 0),rgb(0,0,0,0)) #861c1c !important;
+}
+ 
+@media (max-width: 768px) {
+  .team-section .row.justify-content-center.mt-5.gx-0.gy-4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single_team {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .team_thumb {
+    padding: 0;
+    width: 45%;
+  }
+
+  .team_thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+  }
+
+  .team_info {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    flex-grow: 1;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .social_links {
+    position: relative;
+    transform: none;
+    top: auto;
+    right: auto;
+    margin-top: 10px;
+  }
+
+  .info_inner {
+    padding: 0;
+  }
+
+  .team_info.d-flex.align-items-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+ @media (max-width: 768px) {
+  .single_team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%; /* Ensure it fits container */
+    max-width: 100%; /* Prevent accidental stretch */
+    box-sizing: border-box;
+  }
+
+  .team_thumb {
+    flex: 0 0 90px;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .team_thumb img {
+    width: 90px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+  }
+
+  .team_info {
+    position: static !important;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    flex: 1; /* take remaining space */
+    overflow-wrap: break-word;
+  }
+
+  .info_inner {
+    padding: 0;
+  }
+
+  .info_inner h4,
+  .info_inner p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+  }
+
+  .social_links {
+    display: none;
+  }
+}
+body {
+  overflow-x: hidden;
 }
