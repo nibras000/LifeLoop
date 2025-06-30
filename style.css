@@ -481,6 +481,7 @@ background-size: cover;
     width: 100%; /* Ensure it fits container */
     max-width: 100%; /* Prevent accidental stretch */
     box-sizing: border-box;
+    justify-content: space-between;
   }
 
   .team_thumb {
@@ -501,7 +502,7 @@ background-size: cover;
     background: none;
     box-shadow: none;
     padding: 0;
-    flex: 1; /* take remaining space */
+     /* take remaining space */
     overflow-wrap: break-word;
   }
 
